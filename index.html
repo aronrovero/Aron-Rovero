@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+		<title>Aron Rovero</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+			<a href="#landing" class="navbar-brand d-lg-none">Aron Rovero</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portfolio-nav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a href="#landing" class="navbar-brand mx-1 d-none d-lg-inline">Aron Rovero</a>
+			<div class="collapse navbar-collapse mx-1" id="portfolio-nav">
+				<ul class="navbar-nav ml-auto text-center text-md-left">
+					<li class="nav-item">
+						<a href="#home" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#about_me" class="nav-link">About Me</a>
+					</li>
+					<li class="nav-item">
+						<a href="#projects" class="nav-link">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact_me" class="nav-link">Contact Me</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div id="home" class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 my-5 text-center">
+					<img src="images/aron.jpg" id="aron">
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 my-5 text-center text-lg-left">
+					<h1>Aron Rovero</h1>
+					<h2>Front-End Developer</h2>
+					<p id="home_pg">Hi, welcome to my page. I am Aron, a front-end developer. I currently work as a content editor using XML or Extensible Markup Language at Straive.</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="about_me" class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 text-center my-5 order-lg-2">
+					<img src="images/aron2.png" id="aron2">
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 text-right my-5 text-center text-lg-right order-lg-1">
+					<h1>More about me</h1>
+					<p id="about_me_pg">I used to study BM Music Education at the University of Santo Tomas before stopping for medical reasons. After taking a leave of absence I decided to self study web development before deciding to join Zuiit Coding Bootcamp to further hone my skills. I am also currently working at Straive as a content editor using Extensible Markup Language.</p>
+				</div>
+				
+			</div>
+		</div>
+
+		<div id="projects" class="container-fluid text-center pt-5">
+			<h1>Projects</h1>
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-sm-12 py-3 text-center">
+				    <img src="images/cats.jpg" class="img-fluid py-3">
+				    <h5>Petography</h5>
+				    <p>Petography is a social media website where people can post and share funny and cute animal videos. People can avail premium membership where the earnings will be donated to animal welfare organizations.</p>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 py-3 text-center">
+				    <img src="images/plants.jpg" class="img-fluid py-3">
+				    <h5>Botanique</h5>
+				    <p>Botanique is an e-commerce website where people can buy and sell plants. People can also share information on the site on how to be a better gardener.</p>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 py-3 text-center">
+				    <img src="images/piano.jpg" class="img-fluid py-3">
+				    <h5>Music</h5>
+				    <p>This is where I will post my recordings of my music performances.</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="contact_me" class="container-fluid">
+			<h1 class="text-center pt-5">Contact Me</h1>
+			<div class="row">
+				<div class="col-md-6 my-4 text-center google-maps">
+					<h4 class="text-center my-4">Visit Us</h4>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6267.079658904358!2d120.98204543314668!3d14.460849877362321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cde17f747057%3A0xf00e010e8bb0b6cc!2zMTTCsDI3JzM3LjEiTiAxMjDCsDU5JzA0LjkiRQ!5e0!3m2!1sen!2sph!4v1662389086361!5m2!1sen!2sph" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+				<div class="col-md-6 my-4">
+					<h4 class="text-center my-4">Message Us</h4>
+					<form>
+						<div class="form-group">
+							<label>Full Name</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>Email Address</label>
+							<input type="email" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>Message</label>
+							<textarea class="form-control"></textarea>
+						</div>
+							<button type="submit" class="btn btn-outline-dark btn-block">Send</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer" class="container-fluid">
+			<div class="row text-center">
+				<div class="col">
+					<footer class="white-section" id="footer">
+						<a href="https://www.facebook.com/aronrovero"><i class="footer-icon fab fa-facebook-f mx-2 pt-3"></i></a>
+						<a href="https://www.instagram.com/aron.rovero/"><i class="fa-brands fa-instagram mx-2"></i></a>
+						<a href="https://www.linkedin.com/in/aron-rovero-5204a820b/"><i class="fa-brands fa-linkedin mx-2"></i></a>
+						<a href="https://gitlab.com/batch204-rovero"><i class="fa-brands fa-gitlab mx-2"></i></a>
+						<a href="https://github.com/aronrovero"><i class="fa-brands fa-github mx-2"></i></a>
+						<p>Edwin Aron Rovero</p>
+						<p>Front-End Developer</p>
+						<p class="copyright">© All Rights Reserved 2022</p>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		<!-- JS Dependencies -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/bd2f93f85d.js" crossorigin="anonymous"></script>
+	</body>
+</html>

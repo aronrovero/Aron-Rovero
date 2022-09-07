@@ -1,0 +1,55 @@
+nav {
+	background-color: #576F72;
+}
+
+#aron {
+	height: 300px;
+	border-radius: 150px;
+}
+
+#home {
+	background-color: #F0EBE3;
+}
+
+#home_pg {
+	font-size: 1.5rem;
+	display: inline-block;
+}
+
+#about_me {
+	background-color: #E4DCCF;
+}
+
+#about_me_pg {
+	font-size: 1.5rem;
+}
+
+#aron2 {
+	height: 300px;
+}
+
+.carousel-image {
+	height: 100px;
+}
+
+#projects {
+	background-color: #F0EBE3;
+}
+
+#contact_me {
+	background-color: #7D9D9C;
+}
+
+iframe {
+	height: 320px;
+	width: 320px;
+}
+
+i {
+	color: white;
+}
+
+#footer {
+	background-color: #576F72;
+	color: white;
+}
